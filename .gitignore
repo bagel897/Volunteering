@@ -142,3 +142,4 @@ cython_debug/
 
 Volunteering/__pycache__/
 templates/
+!/Oppurtunities/templates/Oppurtunities/avalabile_list.html
