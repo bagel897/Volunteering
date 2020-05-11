@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title> TAMS volunteering Oppurtunities</title>
+</head>
+<body>
+<div>
+    <h1>Volunteering Oppurtunities</h1>
+</div>
+<div>
+    {% if Oppurtunities %}
+        {% for Oppurtunity in Oppurtunities %}
+            <div>
+                <p>published: {{ Oppurtunity.published_date }}</p>8
+                <h2><a href="">{{ Oppurtunity.title }}</a></h2>
+                <p>{{ Oppurtunity.text|linebreaksbr }}</p>
+            </div>
+        {% endfor %}
+    {% endif %}
+</div>
+</body>
+</html>
